@@ -177,11 +177,7 @@ function gameReset(){
 	happyBlock.x = [];
 	happyBlock.y = [];
 	happyBlock.speed = [];
-	explode.x = [];
-	explode.y = [];
-	explode.velX = [];
-	explode.velY = [];
-	explode.radius = [];
+	clearExplosion();
 	count = 0;
 }
 
